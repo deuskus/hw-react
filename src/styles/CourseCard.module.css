@@ -1,0 +1,42 @@
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.title {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.details {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.modules {
+    margin-top: 15px;
+}
+
+.modules h3 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.modules ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.modules li {
+    padding: 5px 0;
+    color: #666;
+} 
